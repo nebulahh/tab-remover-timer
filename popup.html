@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tab Timer</title>
+    <style>
+        body {
+            width: 300px;
+            padding: 10px;
+            font-family: Arial, sans-serif;
+        }
+        input, button {
+            margin: 5px 0;
+            width: 100%;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Tab Timer</h2>
+        <input type="number" id="hours" placeholder="Hours" min="0">
+        <input type="number" id="minutes" placeholder="Minutes" min="0" max="59">
+        <input type="number" id="seconds" placeholder="Seconds" min="0" max="59">
+        <button type="button" id="startTimer">Start Timer</button>
+        <p id="status"></p>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>

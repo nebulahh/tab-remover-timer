@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Tab Remove Timer",
+    "description": "Remove tab after a predefined time",
+    "version": "1.0.0",
+    "permissions": ["storage", "tabs", "alarms"],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_icon": {
+            "16": "assets/remover.png",
+            "24": "assets/remover.png",
+            "32": "assets/remover.png"
+         },
+         "default_title": "My YT Bookmarks",
+         "default_popup": "popup.html"
+    }
+}
